@@ -1,0 +1,29 @@
+# Core Framework
+streamlit==1.30.0
+
+# Deep Learning
+torch==2.0.1
+torchvision==0.15.2
+
+# Image Processing
+Pillow==10.1.0
+opencv-python==4.8.1.78
+opencv-python-headless==4.8.1.78
+
+# OCR
+easyocr==1.7.1
+
+# Data Processing
+numpy==1.26.4
+pandas==2.1.4
+
+# Utilities
+python-dateutil==2.8.2
+
+# For better pattern matching
+regex==2023.10.3
+
+# For PDF support
+# pdf2image==1.16.3
+# PyPDF2==3.0.1
+
