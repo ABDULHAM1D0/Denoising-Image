@@ -10,7 +10,7 @@ from documentprocessor import DocumentProcessor
 
 
 
-
+# Setting up the page
 st.set_page_config(
     page_title="Document AI - Automated Extraction",
     page_icon="📄",
