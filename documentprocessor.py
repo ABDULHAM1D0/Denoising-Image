@@ -76,7 +76,7 @@ class DocumentProcessor:
             return image
 
         try:
-            # Prepare image
+            # Prepare image.
             img_resized = image.resize((img_size, img_size))
             img_tensor = transforms.ToTensor()(img_resized).unsqueeze(0).to(self.device)
 
@@ -109,7 +109,7 @@ class DocumentProcessor:
                 denoised_max = denoised.max()
 
                 if denoised_max - denoised_min > 0:
-                    # Normalize to [0, 1]
+                    # Normalize to [0, 1].
                     denoised = (denoised - denoised_min) / (denoised_max - denoised_min)
                     st.success(f"Normalized output to range [0, 1]")
                 else:
